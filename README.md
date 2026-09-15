@@ -14,7 +14,7 @@ Python · TypeScript · Java · Flutter &nbsp;|&nbsp; FastAPI · Next.js · Spri
 |---|---|---|
 | [**Qalqan AI**](https://github.com/Kennurken/qalqan-ai) · [live](https://qalqan-ai-nu.vercel.app) · [bot](https://t.me/QalqanAI_bot) | Anti-fraud platform for Kazakhstan: phishing, phone scams, financial pyramids, procurement fraud. Browser extension, PWA, Telegram bot, partner API. 7-tier detection pipeline, fine-tuned XLM-RoBERTa. | FastAPI · Groq/Gemini · Upstash · Vercel |
 | [**KazGPT**](https://github.com/Kennurken/kazgpt-ai-assistant) | Fully offline Kazakh-language assistant. Qwen2.5-7B, QLoRA fine-tune on KazQAD (ISSAI / NU), 4.4 GB GGUF via Ollama or MLX. | Spring Boot · PyTorch · Ollama · MLX |
-| [**Tender Tracker**](https://github.com/Kennurken/tender-tracker) | Monitor goszakup.gov.kz and zakup.sk.kz tenders with filters and alerts. | Next.js · Supabase · Vercel |
+| [**Tender Tracker**](https://github.com/Kennurken/tender-tracker) | Live dashboard of goszakup.gov.kz lots closing within 2 hours with 0–1 bidders — the ones you can still win. | Next.js · Supabase · Vercel |
 
 ## Small tools
 
@@ -46,8 +46,3 @@ Python · TypeScript · Java · Flutter &nbsp;|&nbsp; FastAPI · Next.js · Spri
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennurken&layout=compact&hide_border=true&langs_count=6" height="160" alt="top languages">
 
 </div>
-
-## Contact
-
-[![Email](https://img.shields.io/badge/kmarukob76@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kmarukob76@gmail.com)
-[![Telegram](https://img.shields.io/badge/@QalqanAI__bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/QalqanAI_bot)
