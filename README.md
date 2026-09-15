@@ -39,10 +39,3 @@ Python · TypeScript · Java · Flutter &nbsp;|&nbsp; FastAPI · Next.js · Spri
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Kennurken&show_icons=true&hide_border=true&theme=default&count_private=true&include_all_commits=true" height="160" alt="stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kennurken&layout=compact&hide_border=true&langs_count=6" height="160" alt="top languages">
-
-</div>
