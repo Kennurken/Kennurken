@@ -2,7 +2,7 @@
 
 # Eldos Kydyrbek
 
-**I build AI tools for Kazakhstan — anti-fraud, Kazakh-language LLMs, public-procurement intelligence.**
+**Full-stack & mobile developer — backend, frontend, mobile, AI/LLM, DevOps.**
 
 Python · TypeScript · Java · Flutter &nbsp;|&nbsp; FastAPI · Next.js · Spring Boot &nbsp;|&nbsp; Ollama · MLX · Supabase · Vercel
 
@@ -12,6 +12,8 @@ Python · TypeScript · Java · Flutter &nbsp;|&nbsp; FastAPI · Next.js · Spri
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**tutorbot**](https://github.com/Kennurken/tutorbot) · [bot](https://t.me/kennurken_tutor_bot) | AI accountability tutor for Telegram: tasks, reminders, adaptive oral exams, knowledge profile, bounded consequences for missed sessions. | Java 17 · Spring Boot 4 · PostgreSQL |
+| [**food-delivery**](https://github.com/Kennurken/food-delivery) · [live](https://food-delivery-drab-theta.vercel.app) | Food delivery app with customer/courier/admin roles, live WebSocket order tracking, full motion system. | Flutter · FastAPI |
 | [**Qalqan AI**](https://github.com/Kennurken/qalqan-ai) · [live](https://qalqan-ai-nu.vercel.app) · [bot](https://t.me/QalqanAI_bot) | Anti-fraud platform for Kazakhstan: phishing, phone scams, financial pyramids, procurement fraud. Browser extension, PWA, Telegram bot, partner API. 7-tier detection pipeline, fine-tuned XLM-RoBERTa. | FastAPI · Groq/Gemini · Upstash · Vercel |
 | [**KazGPT**](https://github.com/Kennurken/kazgpt-ai-assistant) | Fully offline Kazakh-language assistant. Qwen2.5-7B, QLoRA fine-tune on KazQAD (ISSAI / NU), 4.4 GB GGUF via Ollama or MLX. | Spring Boot · PyTorch · Ollama · MLX |
 | [**Tender Tracker**](https://github.com/Kennurken/tender-tracker) | Live dashboard of goszakup.gov.kz lots closing within 2 hours with 0–1 bidders — the ones you can still win. | Next.js · Supabase · Vercel |
