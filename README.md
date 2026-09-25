@@ -1,6 +1,6 @@
 <div align="center">
 
-# Eldos Kydyrbek
+# ken
 
 **Full-stack & mobile developer — backend, frontend, mobile, AI/LLM, DevOps.**
 
