@@ -11,4 +11,4 @@
 @keyframes ring{from{stroke-dashoffset:0}to{stroke-dashoffset:163}}
 .ring{stroke-dasharray:163;animation:ring 6s linear infinite}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}.ln{opacity:1}}
-</style></defs><text x="0" y="42" class="m" font-size="14" font-weight="700" fill="#00C9A7" text-anchor="start" >01</text><text x="38" y="42" class="s" font-size="24" font-weight="750" fill="#E8EDF2" text-anchor="start" letter-spacing="-.5">Selected work</text><line x1="224" y1="36" x2="832" y2="36" stroke="#222A35"/><text x="1000" y="41" class="m" font-size="13" font-weight="400" fill="#8E99A6" text-anchor="end" >4 flagship projects</text></svg>
+</style></defs><text x="0" y="42" class="m" font-size="14" font-weight="700" fill="#00C9A7" text-anchor="start" >01</text><text x="38" y="42" class="s" font-size="24" font-weight="750" fill="#E8EDF2" text-anchor="start" letter-spacing="-.5">Selected work</text><line x1="224" y1="36" x2="832" y2="36" stroke="#222A35"/><text x="1000" y="41" class="m" font-size="13" font-weight="400" fill="#8E99A6" text-anchor="end" >3 flagship projects</text></svg>

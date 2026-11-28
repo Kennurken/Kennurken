@@ -108,9 +108,9 @@ def hero(t):
     for i, c in enumerate(["#FF5F57", "#FEBC2E", "#28C840"]):
         b.append(f'<circle cx="{tx+22+i*18}" cy="{ty+17}" r="5.5" fill="{c}"/>')
     b.append(text(tx + tw / 2, ty + 22, "~/ken — zsh", 12, t["muted"], "m", anchor="middle"))
-    lines = [("$", "ken --stats"), ("", "1,678 tests across 4 flagship repos"), ("", "105k lines · Python, Rust, TypeScript"),
-             ("$", "ken --now"), ("", "csa       live on AWS, 24/7"), ("", "phoecord  v0.7.0 · 9 Rust crates"),
-             ("", "zofu      MVP · multi-tenant API")]
+    lines = [("$", "ken --stats"), ("", "1,399 tests across 3 flagship repos"), ("", "83k lines · Python, TypeScript"),
+             ("$", "ken --now"), ("", "csa       live on AWS, 24/7"), ("", "zofu      MVP · multi-tenant API"),
+             ("", "vq        live map veto, realtime")]
     y = ty + 64
     for i, (p, s) in enumerate(lines):
         d = f'style="animation-delay:{.3 + i*.38:.2f}s"'
@@ -124,7 +124,7 @@ def hero(t):
              f'<rect x="{tx+36}" y="{y-13}" width="9" height="16" fill="{BRAND}" class="cur"/></g>')
     # stats strip
     b.append(f'<line x1="48" y1="342" x2="952" y2="342" stroke="{t["line"]}"/>')
-    stats = [("105k+", "lines in featured repos"), ("1,678", "automated tests"), ("4", "flagship products"), ("24/7", "CSA live on AWS EC2")]
+    stats = [("83k+", "lines in featured repos"), ("1,399", "automated tests"), ("3", "flagship products"), ("24/7", "CSA live on AWS EC2")]
     for i, (n, l) in enumerate(stats):
         x = 48 + i * 232
         b.append(text(x, 392, n, 36, t["text"], weight=800, extra='letter-spacing="-1"'))
@@ -261,22 +261,17 @@ def diag_vq(t, c):
 
 
 PROJECTS = [
-    dict(key="phoecord", idx="01", title="PhoeCord", pills=["OPEN SOURCE", "PRE-ALPHA"],
-         tag=["Plugin loader for Discord's new native client.", "No JavaScript to patch, so a local proxy rewrites",
-              "REST/Gateway traffic and plugins run as WASM."],
-         metrics=[("9", "rust crates"), ("279", "tests"), ("22k", "lines of rust")],
-         stack=["Rust", "WASM", "WIT", "GPUI", "TLS/MITM", "Tokio"], diagram=diag_phoecord),
-    dict(key="csa", idx="02", title="CSA", pills=["PRIVATE", "LIVE 24/7"],
+    dict(key="csa", idx="01", title="CSA", pills=["PRIVATE", "LIVE 24/7"],
          tag=["Crypto swing-trading analyst on Binance public", "data. Rules, risk gate and paper ledger, with",
               "statistical backtest gates. It never places orders."],
          metrics=[("1,233", "tests"), ("52k", "lines of python"), ("13", "data-quality checks")],
          stack=["Python", "SQLite", "Parquet", "aiogram 3", "Docker", "AWS EC2", "S3"], diagram=diag_csa),
-    dict(key="zofu", idx="03", title="Zofu", pills=["PRIVATE", "MVP"],
+    dict(key="zofu", idx="02", title="Zofu", pills=["PRIVATE", "MVP"],
          tag=["University platform: a mobile app for students and", "a web cabinet for curators and the dean's office.",
               "One API, each university isolated as a tenant."],
          metrics=[("107", "tests"), ("4", "shared packages"), ("3", "languages")],
          stack=["TypeScript", "Next.js", "FastAPI", "pnpm", "Turbo", "Docker", "CI"], diagram=diag_zofu),
-    dict(key="vq", idx="04", title="Val Qauym", pills=["PRIVATE", "REALTIME"],
+    dict(key="vq", idx="03", title="Val Qauym", pills=["PRIVATE", "REALTIME"],
          tag=["Tournament tooling for a Kazakh VALORANT community:", "solo sign-ups, rank-balanced team builder and a",
               "live Faceit-style map veto for captains and stream."],
          metrics=[("2", "apps"), ("59", "tests"), ("24k", "lines of ts")],
@@ -291,7 +286,7 @@ def card(p, t):
     defs = dots(pid, t) + glow(gid, c, "0%", "0%", t["glow"]) + dots(pid + "i", t, 18)
     clip, base = panel(W, H, t, pid, gid)
     b = [base, f'<rect x="40" y="0" width="120" height="3" rx="1.5" fill="{c}"/>']
-    b.append(text(48, 64, f"{p['idx']} / 04", 13, c, "m", 700, extra='letter-spacing="1"'))
+    b.append(text(48, 64, f"{p['idx']} / {len(PROJECTS):02d}", 13, c, "m", 700, extra='letter-spacing="1"'))
     x = 128
     for s in p["pills"]:
         el, w = pill(x, 49, s, c)
@@ -374,7 +369,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     for name, t in THEMES.items():
         files = {"hero": hero(t), "stack": stack(t), "footer": footer(t),
-                 "sec-work": section("01", "Selected work", "4 flagship projects", t),
+                 "sec-work": section("01", "Selected work", "3 flagship projects", t),
                  "sec-more": section("02", "Also built", "16 public repos", t),
                  "sec-stack": section("03", "Stack", "what I reach for", t),
                  "sec-activity": section("04", "Activity", "updated daily", t)}

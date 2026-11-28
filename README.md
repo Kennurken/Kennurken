@@ -1,14 +1,10 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"><img src="assets/hero-dark.svg" alt="ken: backend & systems engineer. 105k+ lines, 1,678 tests, 4 flagship products, CSA live 24/7 on AWS" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"><img src="assets/hero-dark.svg" alt="ken: backend & systems engineer. 83k+ lines, 1,399 tests, 3 flagship products, CSA live 24/7 on AWS" width="100%"></picture>
 
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-work-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/sec-work-light.svg"><img src="assets/sec-work-dark.svg" alt="01 Selected work" width="100%"></picture>
-
-<a href="https://github.com/Kennurken/phoecord"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-phoecord-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-phoecord-light.svg"><img src="assets/card-phoecord-dark.svg" alt="PhoeCord: plugin loader for Discord's native Rust client. Local proxy + WASM plugins. 9 crates, 279 tests" width="100%"></picture></a>
-
-<br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-csa-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-csa-light.svg"><img src="assets/card-csa-dark.svg" alt="CSA: crypto swing-trading analyst on Binance public data. 1,233 tests, live 24/7 on AWS, never places orders" width="100%"></picture>
 
